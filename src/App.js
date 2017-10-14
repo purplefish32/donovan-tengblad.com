@@ -18,7 +18,7 @@ injectGlobal`
 const AppStyles = styled.div`
   a {
     text-decoration: none;
-    color: #000000;
+    color: #FF0000;
     font-weight: bold;
   }
 

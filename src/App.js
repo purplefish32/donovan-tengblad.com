@@ -18,13 +18,13 @@ injectGlobal`
 const AppStyles = styled.div`
   a {
     text-decoration: none;
-    color: #000000;
+    color: #FF0000;
     font-weight: bold;
   }
 
   nav {
     width: 100%;
-    background: #108db8;
+    background: #FF0db8;
 
     a {
       color: white;

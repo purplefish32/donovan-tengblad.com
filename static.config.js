@@ -7,7 +7,13 @@ export default {
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    const { data: posts } = await axios.get('http://api.donovan-tengblad.com/posts', {
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'        
+      }
+    })
+    console.log(posts);
     return [
       {
         path: '/',

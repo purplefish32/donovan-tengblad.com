@@ -1,6 +1,7 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Router } from 'react-static'
 import styled, { injectGlobal } from 'styled-components'
+import PageTop from 'components/PageTop';
 //
 import Routes from 'react-static-routes'
 
@@ -12,25 +13,16 @@ injectGlobal`
     font-size: 16px;
     margin: 0;
     padding: 0;
+    position: fixed;
+    background: url(/img/blur-bg.jpg) center center no-repeat;
+    background-size: cover;
   }
 `
 
 const AppStyles = styled.div`
   a {
     text-decoration: none;
-    color: #FF0000;
     font-weight: bold;
-  }
-
-  nav {
-    width: 100%;
-    background: #FF0db8;
-
-    a {
-      color: white;
-      padding: 1rem;
-      display: inline-block;
-    }
   }
 
   .content {
@@ -41,11 +33,8 @@ const AppStyles = styled.div`
 export default () => (
   <Router>
     <AppStyles>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-      </nav>
+      <PageTop>
+      </PageTop>
       <div className="content">
         <Routes />
       </div>

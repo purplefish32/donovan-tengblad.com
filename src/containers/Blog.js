@@ -29,7 +29,7 @@ export default getRouteProps(({ posts }) => (
             {post.title}
           </PanelHeader>
           <PanelBody>
-            {post.content}
+            {post.body}
           </PanelBody>
           <Link to={`/blog/post/${post.id}/`}>{post.title}</Link>
         </Panel>

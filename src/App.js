@@ -8,6 +8,7 @@ import Content from 'components/Content';
 import ContentFooter from 'components/ContentFooter';
 import Routes from 'react-static-routes'
 import colors from './colors'
+import theme from './theme'
 //
 
 injectGlobal`
@@ -34,6 +35,16 @@ injectGlobal`
 `
 
 const AppStyles = styled.div`
+  a {
+    color: ${theme.main};
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    text-decoration: none!important;
+  }
+
+  a:hover {
+    color: ${theme.main.darken(0.3)};
+  }
 `
 
 export default (props) => (

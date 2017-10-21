@@ -3,7 +3,7 @@ import theme from 'theme' // from Step #3
 
 const H1 = styled.h1`
   font-weight: 700;
-  color: ${theme.dark};
+  color: ${theme.light};
   float: left;
   width: auto;
   margin: 0;

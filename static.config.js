@@ -24,6 +24,10 @@ export default {
         component: 'src/containers/About',
       },
       {
+        path: '/components/buttons',
+        component: 'src/containers/Buttons',
+      },
+      {
         path: '/blog',
         component: 'src/containers/Blog',
         getProps: () => ({

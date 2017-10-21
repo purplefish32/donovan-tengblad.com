@@ -17,7 +17,8 @@
     "react-gravatar": "^2.6.3",
     "react-router": "^4.2.0",
     "react-static": "1.x.x",
-    "styled-components": "2.2.0"
+    "styled-components": "2.2.0",
+    "styled-components-theme": "^1.0.5"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",

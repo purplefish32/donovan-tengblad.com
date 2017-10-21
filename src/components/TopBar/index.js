@@ -4,7 +4,7 @@ import { Link } from 'react-static'
 import Gravatar from 'react-gravatar';
 import Wrapper from './Wrapper';
 
-function PageTop() {
+function TopBar() {
   return(
     <Wrapper className="page-top clearfix" scroll-position="scrolled" max-height="50">
       <Link to="/" className="al-logo clearfix"><span>Blur</span>Admin</Link>
@@ -34,4 +34,4 @@ function PageTop() {
 }
 
 
-export default PageTop;
+export default TopBar;

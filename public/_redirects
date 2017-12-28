@@ -1,2 +1,2 @@
-/api/*  https://api.donovan-tengblad.com/:splat  200!
-/bilik/*  https://bilik.fr/:splat  200
+/api/*  https://api.donovan-tengblad.com/:splat  200
+/bilik/*  https://bilik.fr/:splat  200!
